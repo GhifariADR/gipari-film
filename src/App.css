@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.movie-container{
+  
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-wrapper {
+  background-color: antiquewhite;
+  width: 300px;
+  
+  align-items: center;
+  color: black;
+
+}
+
+.movie-tittle {
+  height: 60px;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.movie-date {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.movie-rate {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.movie-img{
+  width: 100%;
+}
+
+.movie-search{
+  width: 300px;
+  height: 35px;
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+
